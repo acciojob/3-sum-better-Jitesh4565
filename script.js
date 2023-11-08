@@ -9,7 +9,7 @@ function threeSum(arr, target) {
            while(start<end)
 			   {
 				   const sum=arr[i]+arr[start]+arr[end];
-                if(sum<target)
+                if(sum>target)
 				{
 					end--;
 				}
